@@ -102,6 +102,25 @@ export default function Home() {
             DONATE TO THE GRUMPY BOYS
           </a>
         </div>
+
+        <div className={styles.coalSection}>
+          <div className={styles.coalButtons}>
+            <a
+              href='https://cashapp.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              className={styles.coalButton}>
+              Donate to Preserving Coal Inc
+            </a>
+            <a
+              href='https://www.kelownadailycourier.ca/news/national_news/article_75b6cc58-135a-5460-aad1-1637f31d59a1.html'
+              target='_blank'
+              rel='noopener noreferrer'
+              className={styles.coalButton}>
+              Sign the petition to end coal
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
